@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjercicioPractica2</string>
+    <string name="TeamA">GRUPO A</string>
+    <string name="TeamB">GRUPO B</string>
+    <string name="action_golA">+1 GOL</string>
+    <string name="action_golB">+1 GOL</string>
+</resources>

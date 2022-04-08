@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TeamA"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/score_textviewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_A"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
+            tools:text="0" />
+
+        <Button
+            android:id="@+id/add_scoreA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaul_gapA"
+            android:text="@string/action_golA" />
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/divider_gap"
+    android:layout_marginStart="@dimen/defaul_gapA"
+    android:layout_marginEnd="@dimen/defaul_gapA"
+    android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TeamB"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/score_textviewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_k"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline1"
+            tools:text="0" />
+
+        <Button
+            android:id="@+id/add_scoreB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fault_gap"
+            android:text="@string/action_golB" />
+    </LinearLayout>
+
+
+</LinearLayout>
